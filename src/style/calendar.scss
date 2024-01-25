@@ -1,0 +1,61 @@
+.cal{
+
+  border: 1px solid #000;
+  padding: 20px 30px;
+
+  &__row{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+
+  &__btn{
+    padding: 8px 14px;
+  }
+  &__select{
+    padding: 8px 15px;
+    border: 1px solid #000;
+
+
+  }
+
+  &__option{
+    font-size: 15px;
+  }
+
+  &__table{
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: auto;
+
+  }
+
+
+
+  &__th{
+    vertical-align: middle;
+    text-align: center;
+    height: 36px;
+  }
+
+  &__day{
+    padding: 4px 8px;
+    vertical-align: middle;
+    text-align: center;
+    border: 2px solid transparent;
+
+    &:hover{
+      background-color: #eaeaea;
+      cursor: pointer;
+    }
+  }
+
+  &__today{
+    background-color: dodgerblue;
+    color: white;
+  }
+  &__selected{
+    border: 2px solid dodgerblue;
+  }
+}
